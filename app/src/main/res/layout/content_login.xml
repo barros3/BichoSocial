@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.barros.shark74.bichosocial.activity.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/userPhoto"
+            android:src="@drawable/bs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:layout_marginBottom="10dp"
+            android:background="@color/nliveo_indigo_colorPrimaryDark"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/nliveo_white"
+            android:textColorHint="@color/nliveo_white" />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/nliveo_indigo_colorPrimaryDark"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/nliveo_white"
+            android:textColorHint="@color/nliveo_white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/manterConectado"
+                    android:gravity="left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:soundEffectsEnabled="true"/>
+
+                <TextView
+                    android:text="@string/manterConectado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/acessar"
+            android:text="@string/entrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="validaLogin"
+            android:layout_marginTop="20dip"
+            android:background="#ea4c88"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:text="Criar conta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="regitreNovoUsuario"
+            android:layout_marginTop="20dip"
+            android:background="#ea4c88"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>

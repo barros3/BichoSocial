@@ -1,0 +1,79 @@
+<resources>
+    <!--<string name="app_name">BichoSocial</string>-->
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="login">Login</string>
+    <string name="password">Senha</string>
+    <string name="salvar">Salvar novo?</string>
+    <string name="manterConectado">Manter conectado?</string>/
+    <string name="entrar">Entrar</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="app_name">Bicho Social</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_search">Pesquisa</string>
+    <string name="action_edit_user_image">Alterar Imagem</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+
+    <string name="nav_item_home">Feed de Notícias</string>
+    <string name="nav_item_friends">Amigos</string>
+    <string name="nav_item_notifications">Mensagens</string>
+    <string name="nav_item_logout">Sair</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string name="title_messages">Mensagens</string>
+    <string name="title_logout">Sair</string>
+    <string name="title_friends">Amigos</string>
+    <string name="title_home">Feed de Notícias</string>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Bicho Social</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="hint_email">E-mail</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_name">Nome Completo</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Registre-se</string>
+    <string name="btn_link_to_register">Junte-se à nós.</string>
+    <string name="btn_link_to_login">Parabéns por se registrar! Acesse agora.</string>
+    <string name="welcome">Bem Vindo!</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_logout">LogoutActivity</string>
+    <string name="title_activity_ahahahahah">AHAHAHAHAHA</string>
+    <string name="title_activity_edit_user">EditUserActivity</string>
+
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+
+</resources>
